@@ -1,5 +1,5 @@
 #include"simulate_spi.h"
-#ifdef ENABLE_SIMULATE_SPI
+#ifdef SIMULATE_SPI_H
 
 //config
 #define CSMD 0//device select level:0select,1select
@@ -90,5 +90,5 @@ void simulate_spi_swap(uint8_t*send,uint8_t*receive,uint32_t length)
 	return;
 }
 
-#endif//#ifdef ENABLE_SIMULATE_SPI
+#endif//#ifdef SIMULATE_SPI_H
 

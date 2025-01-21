@@ -1,5 +1,5 @@
 #include"simulate_spi.h"
-#ifdef ENABLE_SIMULATE_SPI
+#ifdef SIMULATE_SPI_H
 
 //config
 #define CS 15//cs pin
@@ -80,4 +80,4 @@ void sck_write(uint8_t bit)
     return;
 }
 
-#endif//#ifdef ENABLE_SIMULATE_SPI
+#endif//#ifdef SIMULATE_SPI_H
